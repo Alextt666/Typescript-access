@@ -1,21 +1,44 @@
-input{
-      width: 20rem;
+input {
+  width: 20rem;
 }
-textarea{
-    width: 20rem;
+h2 {
+  margin: 0;
+  margin-bottom: 3rem;
 }
-label{
-    font-weight: 700;
-    display: block;
-   
+textarea {
+  width: 20rem;
 }
-button{
-    margin-top: 20px;
+label {
+  font-weight: 700;
+  display: block;
+}
+button {
+  margin-top: 20px;
 }
 
-#user-input{
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #ff0062;
-    background: #f7f7f7;
+#user-input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff0062;
+  background: #f7f7f7;
+}
+
+.projects {
+  margin: 2rem 0;
+  color: white;
+}
+#active-projects {
+  border: 1px solid rgb(226, 141, 141);
+}
+#active-projects header {
+  background-color: rgb(226, 141, 141);
+  text-align: center;
+}
+
+#finished-projects {
+  border: 1px solid rgb(19, 69, 196);
+}
+#finished-projects header {
+  background-color: rgb(19, 69, 196);
+  text-align: center;
 }
