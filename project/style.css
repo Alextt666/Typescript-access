@@ -5,6 +5,17 @@ h2 {
   margin: 0;
   margin-bottom: 3rem;
 }
+ul{
+  list-style-type: none;
+}
+li{
+  width: 70%;
+  height: 3rem;
+  line-height: 3rem;
+  color: black;
+  padding-left: 20px;
+  box-shadow: 0 0 5px #ccc;
+}
 textarea {
   width: 20rem;
 }
